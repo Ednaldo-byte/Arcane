@@ -17,4 +17,8 @@
 
   ##  📃 Licença
   Esse projeto possui licença MIT. Para mais detalhes consulte o arquivo [LICENSE](LICENSE.md)
+ 
+  ## 📌 Observações
+ O projeto não foi desenvolvido na versão mobile.
+
  *<p>#dailyFrontend</p>*
