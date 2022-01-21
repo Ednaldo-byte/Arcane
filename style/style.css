@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+:root{
+  --white: #F9F9F9;
+  --white-200: #E3D2BC;
+  --gray: #585858;
+  --black: #161616;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  height: 100vh;
+  padding: 0 20vw;
+  background: url(../assets/PROTOTYPE.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(0.6);
+  background-position: center;
+}
+header{
+  width: 100%;
+  padding:  3.5rem 0 0;
+  /* margin: 0 0 16rem; */
+  display: flex;
+  justify-content: space-between;
+}
+header ul{
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+main section:nth-child(1){
+  margin: 10rem 0 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#arcaneLogo{
+  max-width: 50%;
+}
+button{
+  background: var(--white-200);
+  margin: 3rem 0 0;
+  padding: 1.5rem 5rem;
+  font-size: 2.4rem;
+  clip-path: polygon(4% 0, 100% 0, 100% 100%, 0 100%, 0 12%);
+}
+
+main section:nth-last-child(1){ 
+  width: 100%;
+  display: flex;
+}
+main section:nth-last-child(1) div{
+  display: flex;
+}
+.information{
+  margin: 0 4rem;
+  color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.information::before{
+  content: '';
+  position: absolute;
+  background: var(--white-200);
+  width: 72rem;
+  height: 17rem;
+  z-index: -1;
+  right: -7rem;
+  clip-path: polygon(1% 0, 100% 0, 100% 100%, 0 100%, 0 3%);
+  box-shadow: 100%;
+}
+.information span{
+  font-size: 3.2rem;
+}
+.information p{
+  font-size: 2rem;
+}
+.element{
+  width: 70%;
+  height:  10rem;
+  background: var(--white);
+  opacity: 20%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0 0 0 2.4rem;
+}
