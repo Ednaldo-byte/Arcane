@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
+    <div class="modal sr-only">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fXmAurh012s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <button onclick="show_hide()">Fechar</button>
+    </div>
     <header>
       <ul>
         <li>
@@ -20,9 +24,9 @@
     <div class="element"></div>
     <main>
       <section>
-        <img src="assets/arcane.svg" alt="" id="arcaneLogo"/>
+        <img src="assets/arcane.svg" alt="" id="arcaneLogo" />
 
-        <a href="https://youtu.be/fXmAurh012s"><button>Assista ao trailer</button></a>
+        <button onclick="show_hide()">Assista ao trailer</button>
       </section>
 
       <section>
@@ -37,3 +41,4 @@
     </main>
   </body>
 </html>
+<script src="scripts/script.js"></script>
